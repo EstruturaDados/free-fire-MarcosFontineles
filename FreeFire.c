@@ -206,19 +206,5 @@ void listarItens() {
         }
     }
 
-    
-    // 2. Imprime o cabeçalho da tabela
-  
-    printf("----------------------------------------------------------\n");
-    printf("%-20s | %-20s | %s\n", "NOME", "TIPO", "QUANTIDADE");
-    printf("----------------------------------------------------------\n");
-
-    // 3. Itera e imprime cada item
-    for (int i = 0; i < totalItens; i++) {
-        printf("%-20s | %-20s | %d\n",
-               mochila[i].nome,
-               mochila[i].tipo,
-               mochila[i].quantidade);
-    }
     printf("----------------------------------------------------------\n");
 }
